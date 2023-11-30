@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+
+header {
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.2rem;
+    height: 50px;
+    text-transform: capitalize;
+}
+
+header .logo {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+header .logo span {
+    color: orange;
+}
+header .navbar{
+    width: 850px;
+}
+header .navbar a {
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 0 .4rem;
+}
+
+header .navbar a:hover {
+    color: orange;
+}
+
+header .icons i {
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+header .icons i:hover {
+    color: orange;
+}
+.background{
+    height: 97vh;
+}
+.background img{
+    width: 98.7vw;
+    height: 96vh;
+}
+.background p{
+    text-shadow: 2px 2px 8px #333;
+}
+.explore-white-back img{
+    width: 98.7vw;
+    height: 20vh;
+}
+.explore-white-back p{
+    font-size: 1.2em;
+    padding: 2em;
+}
+.grid-wala img{
+   width: 100%;
+   height: 80%;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+/* here style of navbar and home starts */
+header {
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.1rem 7%;
+    text-transform: capitalize;
+}
+
+header .logo {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+header .logo span {
+    color: orange;
+}
+header .navbar{
+    width: 920px;
+}
+header .navbar a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 .4rem;
+}
+
+header .navbar a:hover {
+    color: orange;
+}
+
+header .icons i {
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+header .icons i:hover {
+    color: orange;
+}
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <a href="#" class="logo"><span>T</span>ravel<br><span>G</span>uides</a>
+            <nav class="navbar">
+                <a href="index1.html#home">home</a>
+                <a href="index1.html#book">book</a>
+                <a href="index1.html#packages">packages</a>
+                <a href="index1.html#services">services</a>
+                <a href="index1.html#gallery">gallery</a>
+                <a href="index1.html#review">review</a>
+                <a href="index1.html#contact">contact</a>
+                <a href="plan.html">plan trip</a>
+                <a href="tg-about.html" >about us</a>
+            </nav>
+
+            <div class="icons" style="display: flex;">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+
+        </header>
+    </div>
+</body>
+</html>

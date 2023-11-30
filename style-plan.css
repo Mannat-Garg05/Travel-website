@@ -1,0 +1,479 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+/* here style of navbar and home starts */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.2rem ;
+    text-transform: capitalize;
+    
+}
+
+header .logo {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+header .logo span {
+    color: orange;
+}
+header .navbar{
+    width: 890px;
+}
+header .navbar a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 .6rem;
+}
+
+header .navbar a:hover {
+    color: orange;
+}
+
+header .icons i {
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+header .icons i:hover {
+    color: orange;
+}
+.home{
+    position: relative;
+    text-align: center;
+}
+
+.home img{
+    height: 95vh;
+    width: 100vw;
+}
+.home .form1{
+    position: absolute;
+    bottom: 7rem;
+    left: 50px;
+    border-radius: 5px;
+}
+.home .form1 ul{
+    display: inline;
+}
+.home .form1 li{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: #333;
+    display: inline;
+    background-color: rgba(105, 193, 247, 0.75);
+    border: 2px solid #333;
+}
+.home .form1 p{
+    display: inline;
+    padding-left: 2px;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.home .form2{
+    position: absolute;
+    bottom: -7rem;
+    left: 0px;
+    width: 200%;    
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.home .form1 .btn {
+    background-color: rgba(105, 193, 247, 0.75);
+    border-color: rgba(105, 193, 247, 0.75);
+}
+.home .form1 .btn:active li {
+    color: #fff;
+    background-color: #fff;
+   
+}
+.home .form1 .btn:active .form2 {
+    color: #fff;
+    background-color: #fff;
+    position: absolute;
+   
+}
+
+
+.home .form2 #l1{
+    
+    display: flex;
+}
+.home .form2 #l1 label{
+   font-size: 2rem;
+   padding: 0.5rem;
+}
+.home .form2 #l1 input{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+ }
+ 
+
+.home .form2 #l2{
+    display: flex;
+    display: none;
+}
+.home .form2 #l2 label{
+   font-size: 2rem;
+   padding: 0.5rem;
+}
+.home .form2 #l2 input{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+ }
+
+.home .form2 #l3{
+    display: flex;
+    display: none;
+}
+.home .form2 #l3 label{
+   font-size: 2rem;
+   padding: 0.5rem;
+}
+.home .form2 #l3 input{
+    font-size: 1.1rem;
+    padding: 0.5rem;
+   
+ }
+ #l3 #c1,#c2,#c3{
+  width: 80%;
+ }
+
+.home .form2 #l4{
+    display: flex;
+    display: none;
+}
+.home .form2 #l4 label{
+   font-size: 2rem;
+   padding: 0.5rem;
+}
+.home .form2 #l4 input{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+ }
+ .home .form2 #l4 .btn{
+    font-size:1. 2rem;
+    /* background-color: orange; */
+    padding: 0.5rem;
+ }
+ #l4 #number,#from,#to{
+  width: 85%;
+
+ }
+
+ .plan-us h1{
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+ }
+ .plan-us p{
+    
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+ }
+ .plan-us .grid{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ .plan-us .grid #pp1{
+    width: 90%;
+ }
+ .plan-us .grid #pp2{
+    width: 50%;
+ }
+ .plan-us .grid #pp3{
+    width: 60%;
+    height: 70%;
+ }
+ .plan-us .grid #pp4{
+    width: 60%;
+ }
+ .cruise h1{
+  
+        margin-top: 2.5rem;
+        text-align: center;
+        font-size: 2.5rem;
+     }
+     .cruise p{
+        
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+     }
+     .controls {
+        padding: 0.5rem;
+        border-radius: 5rem;
+        background: rgba(0, 0, 0, .5);
+        position: relative;
+        top: 10rem;
+    }
+     .controls .vid-btn {
+        height: 2rem;
+        width: 2rem;
+        display: inline-block;
+        border-radius: 45%;
+        background: #fff;
+        cursor: pointer;
+        margin: 0 .3rem;
+    }
+    
+ .controls .vid-btn.active {
+        background-color: orange;
+    }
+
+    .box-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap:2rem;
+      }
+       .box-container .box{
+        flex: 1 1 20rem;
+      padding: 15px;
+      border-radius: .5rem;
+      overflow: hidden;
+      box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+      transition: transform 0.5s;
+    }
+     .box-container .box:hover{
+      transform: scale(1.03);
+      box-shadow: 0 0 15px 15px rgba(0,0,0,.1);
+    }
+    
+    
+     .box-container .box img{
+        height: 20rem;
+        width:100%;
+        object-fit: cover;
+      }
+       .box-container .box .content h3{
+        font-size:2rem;
+        color:#333;
+      }
+       .box-container .box p{
+        font-size: 1.7rem;
+      }
+      .box-container .box .content h3 i{
+        color:orange;
+      }
+       .box-container .box .content .rating i{
+        font-size:1.4rem;
+        color:orange;
+        padding-top: 1rem;
+      }
+       .box-container .box .price{
+        font-size:1.4rem;
+        padding: 1rem;
+      }
+       .box-container .box span{
+        font-size:1.4rem;
+        background: none;
+        text-decoration: line-through;
+      }
+      .box-container .box .info{
+        font-size: 1rem;
+         margin-top: 0.5rem;
+      }
+       .box-container .box .btn{
+        font-size:1.4rem;
+        padding: 0.6rem;
+        margin-top: 1rem;
+        text-transform: uppercase;
+        color: #fff;
+        background: orange;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.25s ease-in-out;
+      }
+       .box-container .box .btn:hover{
+        color: black;
+        text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
+        background-color: rgb(227, 181, 96);
+        filter: opacity(30);
+      }    
+      .happy{
+        margin-top: 3rem;
+        
+      }
+      .happy .container{
+        margin: 3rem;
+        width: 90%;
+        background-color: #eeebeb;
+        margin-left: 5rem;
+        display: flex;
+      }
+      .happy .container .left-img {
+      width: 60%;
+    }
+    .happy .container .left-img img{
+        width: 55%;
+        padding: 2rem;
+    }
+    .happy .container .right-data{
+        width: 40%;
+    }
+
+    .flights .bar{
+        display: flex;
+    }
+    .flights .bar .bar-color{
+        width: 80%;
+        background-color: none;
+        transform: all 2s ease;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #fff 40%, lightblue 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    transform: scaleX(0.92);
+    }
+    
+    
+  .flights .bar .bar-color:hover{
+        
+    background-position: left;
+    background-size: 165%;
+   
+    }
+    .hotel .bar{
+        display: flex;
+    }
+    .hotel .bar .bar-color{
+        width: 80%;
+        background-color: none;
+        transform: all 2s ease;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #fff 40%, lightblue 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    transform: scaleX(0.92);
+    }
+    
+    
+  .hotel .bar .bar-color:hover{
+        
+    background-position: left;
+    background-size: 157%;
+   
+    }
+
+    .car .bar{
+        display: flex;
+    }
+    .car .bar .bar-color{
+        width: 80%;
+        background-color: none;
+        transform: all 2s ease;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #fff 40%, lightblue 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    transform: scaleX(0.92);
+    }
+    
+    
+  .car .bar .bar-color:hover{
+        
+    background-position: left;
+    background-size: 127%;
+   
+    }
+
+    .cr .bar{
+        display: flex;
+    }
+    .cr .bar .bar-color{
+        width: 80%;
+        background-color: none;
+        transform: all 2s ease;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #fff 40%, lightblue 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    transform: scaleX(0.92);
+    }
+    
+    
+  .cr .bar .bar-color:hover{
+        
+    background-position: left;
+    background-size: 110%;
+   
+    }
+
+    .footer{
+        background:#333;
+      }
+      .footer .box-container{
+        padding-top: 30px;
+        display:flex;
+        flex-wrap: wrap;
+        text-transform: capitalize;
+        
+      }
+      .footer .box-container .box{
+        margin-left: 10px;
+        padding: 20px;
+        padding:1rem 0;
+        flex:1 1 17rem;
+      }
+      .footer .box-container .box h3{
+        font-size: 2rem;
+        padding:.7rem 0;
+        color:#fff;
+      }
+      .footer .box-container .box p{
+        font-size: 1.3rem;
+        padding:.5rem 0;
+        color:#eee;
+      }
+      .footer .box-container .box a{
+        display: block;
+        font-size: 1.3rem;
+        padding:.5rem 0;
+        color:#eee;
+      }
+      .footer .box-container .box a:hover{
+        color:orange;
+        text-decoration: underline;
+        text-decoration-color: orange;
+      }
+      .footer .credit{
+        text-align: center;
+        padding:2rem 1rem;
+        margin-top: 1rem;
+        font-size: 1.7rem;
+        font-weight: normal;
+        color:#fff;
+        border-top: .1rem solid rgba(255,255,255,.2);
+      }
+      
+      .footer .credit span{
+        color:orange;
+        text-transform: uppercase;
+      }
+
+
+    
+

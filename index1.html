@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guides</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <!--     
+header section including navbar -->
+    <div>
+        <header>
+            <a href="explore.html" class="logo"><span>T</span>ravel<br><span>G</span>uides</a>
+            <nav class="navbar">
+                <a href="#">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="index.html">History</a>
+                <a href="review.html">review</a>
+                <a href="contactus.html">contact</a>
+                <a href="plan.html">plan trip</a>
+                <a href="tg-about.html" target="_self">about us</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <a href="login.html"> <i class="fas fa-user" id="login-btn"></i></a>
+            </div>
+
+         
+
+
+        </header>
+    </div>
+    <!-- end of header section-->
+
+    <!--home video section starts-->
+
+    <section class="home">
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <a href="jungle.html" class="btn">discover more</a>
+        </div>
+
+        <!-- to add background video container-->
+        <div class="controls">
+            <p class="vid-btn active" data-src="images/vid-1.mp4"></p>
+            <p class="vid-btn" data-src="images/vid-2.mp4"></p>
+            <p class="vid-btn" data-src="images/vid-3.mp4"></p>
+            <p class="vid-btn" data-src="images/vid-4.mp4"></p>
+            <p class="vid-btn" data-src="images/vid-5.mp4"></p>
+        </div>
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <!-- video section background ends here -->
+    <!-- now book now section-->
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <p>b</p>
+            <p>o</p>
+            <p>o</p>
+            <p>k</p>
+            <p class="space"></p>
+            <p>n</p>
+            <p>o</p>
+            <p>w</p>
+        </h1>
+        <!-- <this id div in which form is made> -->
+        <div class="row">
+            <div class="image">
+                <img src="images/book-img.svg" alt="book here">
+            </div>
+            <form class="book-form">
+                <div class="input-box">
+                    <h3>
+                        Destination
+                    </h3>
+                    <input type="text" placeholder="Enter your Destination">
+                </div>
+                <div class="input-box">
+                    <h3>
+                        How many
+                    </h3>
+                    <input type="text" placeholder="number of guests">
+                </div>
+                <div class="input-box">
+                    <h3>
+                        Date of arrival
+                    </h3>
+                    <input type="date" placeholder="dd/mm/yyyy">
+                </div>
+                <div class="input-box">
+                    <h3>
+                        date of leaving
+                    </h3>
+                    <input type="date" placeholder="mm/dd/yyyy">
+                </div>
+                <br><strong>
+                    <input type="button" class="book-btn" value="BOOK NOW">
+                </strong>
+            </form>
+        </div>
+    </section>
+
+    <!-- booking section ends here-->
+    <!-- here the section of packages starts-->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <p class="head">P</p>
+            <p class="head">A</p>
+            <p class="head">C</p>
+            <p class="head">K</p>
+            <p class="head">A</p>
+            <p class="head">G</p>
+            <p class="head">E</p>
+            <p class="head">S</p>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box" id="box-mumbai">
+                <img src="images/p-1.jpg" alt="MUMBAI/BOMABY">
+
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+                    <p>
+                        Best 4N 5D Mumbai Sightseeing Tour Package For A Refreshing Getaway
+                    </p>
+                    <p class="info">
+                        5 Days & 4 Nights Customizable</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        $90.00 <span>$120.00</span>
+                    </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+            <div class="box" id="box-hawai">
+                <img src="images/p-2.jpg" alt="HAWAI">
+
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Hawaii </h3>
+                    <p>Exclusive Honeymoon Tour Packages For A Memorable Vacay
+                        <br>
+                    </p>
+                    <p class="info"> 7 Days & 6 Nights Customizable</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        $90.00 <span>$120.00</span>
+                    </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box" id="box-sydney">
+                <img src="images/p-3.jpg" alt="sydney">
+
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Sydney </h3>
+                    <p>Top Family Holiday Packages in Goa for an Ideal Family Vacation
+                        </p>
+                        <p class="info">
+                        5 Days & 4 Nights Customizable</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        $90.00 <span>$120.00</span>
+                    </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+            <div class="box" id="box-paris">
+                <img src="images/p-4.jpg" alt="PARIS">
+
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Paris </h3>
+                    <p> Affordable Charming Paris Honeymoon Package
+                    </p>
+                    <p class="info">
+                        4 Days & 3 Nights Customizable</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        $90.00 <span>$120.00</span>
+                    </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box" id="box-tokyo">
+                <img src="images/p-5.jpg" alt="TOKYO">
+
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Tokyo </h3>
+                    <p>
+                        Top Tokyo Tour Packages For An Enthralling Experience In Japan
+                  </p>
+                    <p class="info">
+                        7 Days & 6 Nights Customizable</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        $90.00 <span>$120.00</span>
+                    </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box" id="box-eqypt">
+                <img src="images/p-6.jpg" alt="Egypt">
+
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Egypt </h3>
+                    <p>Pyramids And The Nile : Egypt Memorable Honeymoon Package</p>
+                    <p class="info"> 4 Days & 3 Nights Customizable</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        $90.00 <span>$120.00</span>
+                    </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- this is the end of the package section -->
+    <!-- here the service section starts-->
+
+    <section class="services" id="services">
+        <h1 class="heading">
+            <p class="head">S</p>
+            <p class="head">E</p>
+            <p class="head">R</p>
+            <p class="head">V</p>
+            <p class="head">I</p>
+            <p class="head">C</p>
+            <p class="head">E</p>
+            <p class="head">S</p>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Providing an ideal mix of value, comfort and convenience, it offers a budget friendly setting with an array of amenities designed for travellers like you</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>The F&B Services personnel are responsible to create the exact experience the guests wish for.The Restaurant Manager looks after the overall functioning for guests.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>For up-to-date information on 'safe' and 'unsafe' areas of the city, a local tourist information officer will be provided to our customers.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Experience the world, one adventure at a time. Make your trip unforgettable! Making all destinations available around the globe. Plan your great journey here !!!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Whether you're looking for a cruise, plane tickets, or the whole package, we have you covered. Just tell us where you want to go, and we'll help you figure out the rest.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Have bucket list full of adventures ??? Worried , how to do? We have you covered . Come with us to a super cool and safe adventurous trip</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- here the services section ends-->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <p class="head">G</p>
+            <p class="head">A</p>
+            <p class="head">L</p>
+            <p class="head">L</p>
+            <p class="head">E</p>
+            <p class="head">R</p>
+            <p class="head">Y</p>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Bali</h3>
+                    <p>A part of Indonesia. Bali, also referred to as The Island of Gods, is nestled in between Java to the west and Lombok to the east. Choose from our Bali tour packages.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>Hawai</h3>
+                    <p>A cluster of 50 states, situated far west, USA is one of the most popular holiday destinations across the globe. Hawai it is ... Lets catch this beauty</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Greece</h3>
+                    <p>Greece is an all-weather destination. Greece tour packages offer from solo travelers to honeymooners, from families to groups of friends.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Gate of Heaven</h3>
+                    <p>Gate of Heaven - Tirta Gangga Royal Water Palace - Tukad Cepung Waterfall ... How can you miss this . So come lets go</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Italy</h3>
+                    <p>Italy is surrounded by the Mediterranean sea on one side , with great heritage of Leaning tower of pisa, Must Travel</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Phuket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- the gallery section ends here-->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>“Travel is the main thing you purchase that makes you more extravagant”. We, at ‘Organization Name’, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#">review</a>
+                <a href="contactus.html">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> mr. web designer </span> | all rights reserved! </h1>
+
+    </section>
+
+</body>
+
+</html>
